@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style 1: Playful & Colorful</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', cursive;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            background: white;
+            border-radius: 30px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #667eea;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .subtitle {
+            color: #666;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+        }
+        .question {
+            background: #f8f9ff;
+            padding: 25px;
+            border-radius: 20px;
+            margin-bottom: 25px;
+        }
+        .question h2 {
+            color: #333;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+        .option {
+            background: white;
+            border: 3px solid #667eea;
+            border-radius: 15px;
+            padding: 18px 25px;
+            margin-bottom: 15px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 1.1rem;
+        }
+        .option:hover {
+            background: #667eea;
+            color: white;
+            transform: translateX(10px);
+        }
+        .note {
+            text-align: center;
+            color: #667eea;
+            font-weight: bold;
+            margin-top: 20px;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>☕ Coffee Personality Quiz!</h1>
+        <p class="subtitle">Discover your perfect brew ✨</p>
+
+        <div class="question">
+            <h2>If you were a dessert, you'd be...</h2>
+            <div class="option">🍰 Cheesecake - Classic and reliable</div>
+            <div class="option">🌶️ Spicy chocolate - Bold and adventurous</div>
+            <div class="option">🍦 Vanilla ice cream - Simple perfection</div>
+            <div class="option">🍩 Glazed donut - Sweet and comforting</div>
+        </div>
+
+        <p class="note">STYLE 1: Playful & Colorful</p>
+    </div>
+</body>
+</html>
