@@ -187,7 +187,7 @@ export default function Home() {
         <div className="max-w-xl w-full bg-[#f9f5f0] rounded-2xl p-12 shadow-2xl">
           <div className="text-center mb-8">
             <h2 className="text-3xl font-normal text-[#5d4037] mb-3" style={{ fontFamily: 'Georgia, serif' }}>
-              You're a
+              You&apos;re a
             </h2>
             <h1 className="text-5xl font-medium text-[#d4a574] mb-4" style={{ fontFamily: 'Georgia, serif' }}>
               {result.name}
